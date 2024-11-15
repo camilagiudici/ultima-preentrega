@@ -1,0 +1,23 @@
+.imagenEmpleados{
+    @include flex;
+    margin-top: 80px;
+}
+
+.mainNosotros{
+    margin: 20px 0px;
+    width: 100%;
+    section h1{
+        margin-left: 10px;
+    }
+    
+}
+main section div img{
+    width: 100%;
+}
+
+main section p{
+    margin: 20px 10px;
+}
+h1{
+    color: map-get($color, segundo);
+}

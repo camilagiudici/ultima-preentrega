@@ -1,0 +1,19 @@
+footer{
+    width: 100%;
+    margin-top: 70px;
+    background-color: rgba(86, 148, 140, 0.13);
+    color: rgb(80, 79, 79);
+    article{
+        display: flex;  
+        flex-direction: row;
+        justify-content: end;
+        gap: 1.875rem;
+        div{
+            text-align: right;
+            a img{
+                width: 20px;
+                height: auto;
+            }
+        }        
+    }
+}

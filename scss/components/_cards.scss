@@ -1,0 +1,22 @@
+.menuTodosLosProductos div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    height: 100%;
+    img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .menuTodosLosProductos div p {
+        color: black;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .menuTodosLosProductos :hover{
+        width: 250px;
+    }
+}

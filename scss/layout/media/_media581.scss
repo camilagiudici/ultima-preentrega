@@ -1,0 +1,20 @@
+@media (max-width: 581px) {
+    .gridMenu {
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: center;
+    }
+
+    .contenidoDerecha {
+        order: 1; /* Mueve .contenidoDerecha debajo de .cajaMenu */
+        margin-top: 20px;
+        width: 100%; /* Asegura que ocupe todo el ancho */
+    }
+
+    .cajaMenu {
+        order: 0; /* Mantiene .cajaMenu en la parte superior */
+        width: 200px; /* Asegura que ocupe todo el ancho */
+        margin: 0 auto;
+        margin-top: 30px; /* Centra el contenido */
+    }
+}

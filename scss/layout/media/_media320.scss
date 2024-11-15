@@ -1,0 +1,39 @@
+@media (max-width: 320px) {
+    .mainNosotros {
+        padding: 0 10px; 
+    }
+
+    .imagenEmpleados img {
+        max-width: 90%; 
+        height: auto;
+    }
+
+    .contenedorBoton button {
+        font-size: 14px; 
+        padding: 8px 12px; 
+    }
+
+    .h1, .textoConoce {
+        font-size: 18px; 
+    }
+
+    .textoNosotros {
+        font-size: 14px; 
+        margin: 10px; 
+    }
+
+    footer {
+        font-size: 12px; 
+        h2 {
+        font-size: 14px;
+        }
+    }
+    .imagenCartelPipe {
+        width: 100%;
+    }
+
+    .menuLogos {
+        height: 400px; 
+        background-size: cover; 
+    }
+}

@@ -1,0 +1,120 @@
+@media (max-width: 687px) {
+    header {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navBarra {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 10px 0;
+    }
+
+    header div a img {
+        width: 60px;
+        padding-right: 0;
+    }
+
+    form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    input[type="search"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .imagenCartelPipe {
+        width: 100%;
+    }
+
+    .menuLogos {
+        height: 350px; 
+        background-size: cover;
+    }
+
+    .primerSeccion, .segundaSeccion, .tercerSeccion {
+        padding: 40px 15px;
+    }
+
+    .navBarra {
+        text-align: center;
+    }
+
+    .gridMenu {
+        grid-template-columns: 1fr; 
+        margin: 0 20px; 
+    }
+
+    .cajaMenu {
+        background-color: rgba(4, 156, 136, 0.993);
+        color: white;
+        width: 200px; 
+        margin-left: 60px;
+        margin-top: 30px;
+        border-radius: 25px;
+        padding: 40px;
+        height: 100vh;
+    }
+
+    .gridMenu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contenidoDerecha {
+        margin: 0 auto;
+    }
+
+    .menuTodosLosProductos {
+        grid-template-columns: 1fr;
+        gap: 30px; 
+        padding: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    footer article div, footer section div {
+        padding: 0;
+        margin: 0;
+    }
+        header {
+            padding: 10px;
+        }
+        header div a img {
+            width: 60px;
+            padding-right: 0;
+        }
+    
+        form {
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        input[type="search"] {
+            width: 100%;
+            margin-top: 10px;
+        }
+    
+        .imagenCartelPipe {
+            width: 100%;
+        }
+    
+        .menuLogos {
+            height: 400px;
+            background-size: cover;
+        }
+    
+        .primerSeccion, .segundaSeccion, .tercerSeccion {
+            padding: 50px 20px;
+        }
+    
+        .navBarra{
+            text-align: center;
+        }
+    
+    }

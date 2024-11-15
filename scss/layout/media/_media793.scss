@@ -1,0 +1,12 @@
+@media (max-width: 793px) {
+    .contenidoDerecha div {
+        width: 200px; 
+        height: 250px; 
+        margin: 0 auto;
+    }
+
+    .menuTodosLosProductos {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

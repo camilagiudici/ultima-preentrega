@@ -1,0 +1,51 @@
+.gridMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.cajaMenu {
+    background-color: map-get($color, segundo);
+    color: map-get($color, cuarto);
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 40px;
+    a {
+        display: block; 
+        text-align: center;
+        padding: 5px 0;
+        color: map-get($color, cuarto);
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: map-get($color, septimo);
+    }
+}
+
+.contenidoDerecha {
+    margin-right: 60px;
+    section div a p{
+        color: map-get($color, sexto);
+    }
+    section div:hover{
+        width: 250px;
+    }
+}
+
+.h2TodosLosProductos {
+    color: map-get($color, sexto);
+    font-size: 35px;
+    text-align: center; 
+    margin: 0; 
+}
+
+.menuTodosLosProductos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    padding: 20px;
+}

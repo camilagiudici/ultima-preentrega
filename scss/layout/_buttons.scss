@@ -1,0 +1,56 @@
+main section article div button{
+    background-color: map-get($color, segundo);
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid map-get($color, segundo);
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: map-get($color, cuarto);
+    box-shadow: 2px 2px 4px map-get($color, tercero);
+}
+
+.contenedorBoton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section div button{
+    all: unset;
+    background-color: map-get($color, segundo);
+    padding: 10px 30px;
+    border: none;
+    border-bottom: 2px solid map-get($color, segundo);
+    margin: 50px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px map-get($color, tercero);
+    font-size: 20px;
+    color: map-get($color, cuarto);
+    font-weight:500;
+    :hover{
+    background-color: map-get($color, segundo);
+    border-bottom: map-get($color, segundo);
+    }
+}
+
+.botonPedirAca{
+    all: unset;
+    background-color: map-get($color, cuarto);
+    padding: 5px 20px 0px;
+    border: none;
+    margin: 50px;
+    border-radius: 70px;
+    box-shadow: 2px 2px 4px map-get($color, tercero);
+    color: map-get($color, sexto);
+    height: 50px;
+    line-height: 50px;
+    font-weight: 500;
+    :hover{
+    background-color: map-get($color, primero);
+    color: map-get($color, cuarto);
+    }
+    .botonPedirAca img{
+    width: 30px;
+    }
+}

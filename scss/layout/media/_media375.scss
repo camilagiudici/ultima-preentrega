@@ -1,0 +1,54 @@
+@media (max-width: 375px) {
+    
+    .mainNosotros {
+        padding: 0 8px; 
+    }
+
+    .imagenEmpleados img {
+        max-width: 85%; 
+        height: auto; 
+    }
+
+    .contenedorBoton button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    .textoConoce {
+        font-size: 16px; 
+    }
+
+    .textoNosotros {
+        font-size: 12px; 
+        margin: 8px; 
+        line-height: 1.4;
+    }
+
+    footer {
+        font-size: 10px;
+        h2 {
+        font-size: 12px; 
+        }
+    }
+
+    .botonBuscar{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+    
+    .mainNosotros section h1 {
+        font-size: 24px; 
+    }
+        .imagenCartelPipe {
+            width: 100%; 
+        }
+    
+        .menuLogos {
+            height: 450px; 
+            background-size: cover; 
+        }
+}

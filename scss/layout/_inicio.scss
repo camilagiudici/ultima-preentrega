@@ -1,0 +1,109 @@
+main article div{
+    width: 100%;
+    padding: 0;
+    margin-top: 50px;
+
+}
+
+.imagenCartelPipe{
+    width: 700px;
+    display: flex;
+    margin: auto;
+}
+
+.menuLogos{
+    margin-top: 50px;
+    text-align: center;
+    background-image: url("../assets/img/mar-pipe.png");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    a img:hover{
+        width: 55px;
+    }
+}
+
+main section a{
+    color: map-get($color, cuarto);
+}
+
+.primerSeccion{
+    padding: 80px;
+    border-radius: 0;
+    background-image: url("../assets/img/imagen-1-inicio.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    p{
+        color: map-get($color, cuarto);
+        text-align: center;
+        font-size:xx-large;
+        text-shadow: 2px 2px 5px map-get($color, septimo);
+        position: relative;
+        top: -60px;
+    }
+    a{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 40px;
+    }
+}
+
+.segundaSeccion{
+    padding: 80px;
+    background-image: url("../assets/img/imagen-2-inicio.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    p{
+        color: map-get($color, cuarto);
+        justify-content: center;
+        font-size: xx-large;
+        text-shadow: 2px 2px 5px map-get($color, septimo);
+        position: relative;
+        top: -60px;
+        text-align: center;
+    }
+    a{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 70px;
+    }
+}
+.tercerSeccion{
+    padding: 80px;
+   background-image: url("../assets/img/imagen-3-inicio.png");
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   p{
+    color: map-get($color, cuarto);
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px map-get($color, septimo);
+    position: relative;
+    top: -60px;
+    text-align: center;
+}
+a{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 75px;
+}
+}
+
+.seccionesInicio {
+        margin-top: 100px !important;
+        margin-bottom: 100px;
+        padding: 0;
+        border: none
+}

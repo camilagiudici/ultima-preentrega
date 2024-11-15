@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="search"] {
+    border-bottom: transparent;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 8px; 
+    color: rgba(0, 0, 0, 0.74);
+    outline: none;
+    border-color: map-get($color, primero);
+    }
